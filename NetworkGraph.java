@@ -15,6 +15,7 @@ public class NetworkGraph {
         if (user1 != null && user2 != null) {
             user1.addFriend(username2);
             
+            
         }else{
             System.out.println("One or both users not found in the network.");
         }
