@@ -14,13 +14,23 @@ public class NetworkGraph {
         Users user2 = userMap.get(username2);
         if (user1 != null && user2 != null) {
             user1.addFriend(username2);
-            
+
             
         }else{
             System.out.println("One or both users not found in the network.");
         }
 
     }
+    // people you may know method
+    public void peopleYouMayKnow(String username){
+
+    }
+
+
+
+
+
+
     public Users getUser(String username) {
         return userMap.get(username);
     }
