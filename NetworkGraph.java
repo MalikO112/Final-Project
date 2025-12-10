@@ -46,7 +46,6 @@ public class NetworkGraph {
         System.out.println("People you may know for " + username + ": " + suggestions);
     }
 
-
     public Users getUser(String username) {
         return userMap.get(username);
     }
