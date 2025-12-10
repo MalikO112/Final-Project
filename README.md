@@ -7,7 +7,7 @@ Functionality: The functionality is for model users and connections / suggest fr
 
  
 
-ADTs: Queue, HashMap, Graph, Sort 
+ADTs: ArrayList, HashMap, Graph, Sort, Map, Lists
 
  
 
@@ -33,4 +33,4 @@ HashMap: store user profiles or visited nodes
 
  
 
-Sort: make suggestions based on friends or interaction frequency.    
+Sort: make suggestions based on friends.   
