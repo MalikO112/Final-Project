@@ -62,7 +62,11 @@ public class SocialNetwork {
         theSlap.displayNetwork();
 
         // Test people you may know
-        theSlap.peopleYouMayKnow("Alice");
+       // theSlap.peopleYouMayKnow("Alice");
+        //theSlap.peopleYouMayKnow("Bob");
+        
+        theSlap.SortedPeopleYouMayKnow(theSlap.peopleYouMayKnow("Alice"));
+        theSlap.SortedPeopleYouMayKnow(theSlap.peopleYouMayKnow("Bob"));
     }
 
 }

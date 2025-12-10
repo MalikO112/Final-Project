@@ -28,9 +28,8 @@ public class Users {
         if (!friends.contains(friend)) {
             friends.add(friend);
         }
-        
-
     }
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
