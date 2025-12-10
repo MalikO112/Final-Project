@@ -14,16 +14,6 @@ public class SocialNetwork {
         theSlap.addUser("Grace");
         theSlap.addUser("Samantha");
 
-
-
-
-
-
-
-
-
-
-
         // Add friendships
         // Alice friends
         theSlap.addFriendship("Alice", "Bob");
@@ -68,23 +58,11 @@ public class SocialNetwork {
         theSlap.addFriendship("Samantha","Andrew");
         theSlap.addFriendship("Samantha", "Bob");
 
-
-
-
-
-
-
-
-
-
-
-
         //prirnt the network
         theSlap.displayNetwork();
+
+        // Test people you may know
+        theSlap.peopleYouMayKnow("Alice");
     }
-
-
-
-
 
 }
